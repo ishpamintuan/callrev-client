@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "ishmaelp",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishpamintuan/callrev-client.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ishpamintuan/callrev-client/issues"
+  },
+  "homepage": "https://github.com/ishpamintuan/callrev-client#readme"
 }
