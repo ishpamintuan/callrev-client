@@ -8,10 +8,15 @@
     //   element.textContent = 'Hello World'
     //   element.className = 'container'
     //   rootElement.appendChild(element)
-    const element = React.createElement("div", {
-      className: "container",
-      children: "Hello World"
-    });
+    const element = React.createElement(
+      "div",
+      {
+        className: "container"
+      },
+      "Hello World",
+      "Bye World",
+    );
+    console.log(element);
     ReactDOM.render(element, rootElement);
   </script>
 </body>
