@@ -5,11 +5,11 @@
   <script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
   <script type="text/babel">
     const rootElement = document.getElementById("root");
-    const helloWorld = <div>Hello World</div>;
+    const message = props => <div>{props.msg}</div>;
     const element = (
       <div className="container">
-        {helloWorld}
-        {helloWorld}
+        {message({ msg: "Hello World" })}
+        {message({ msg: "Goodbye World" })}
       </div>
     );
     ReactDOM.render(element, rootElement);
